@@ -1,0 +1,111 @@
+{
+  "common": {
+    "brand": "MealPrep Pro",
+    "subscribe": "Subscribe Now",
+    "trial": "Try 1 Week (Discounted)",
+    "consult": "Book Free Consultation",
+    "whatsapp": "WhatsApp Us",
+    "phone": "Call Us",
+    "email": "Email Us",
+    "footer_line": "Eat clean. Live strong.",
+    "all_rights": "All Rights Reserved © 2024 MealPrep Pro",
+    "results_disclaimer": "* Results may vary. Consistency is key to success."
+  },
+  "nav": {
+    "how_it_works": "How it works",
+    "meals": "Menu",
+    "pricing": "Pricing",
+    "testimonials": "Success Stories",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "Save Time... Eat Healthy Without Sacrificing Taste",
+    "subtitle": "Healthy, fresh, calorie-counted meals delivered to your door daily. Not hospital food—this is chef-crafted nutrition!",
+    "badge1": "Free Delivery",
+    "badge2": "No Preservatives",
+    "badge3": "Cancel Anytime"
+  },
+  "metrics": {
+    "meals_weekly": "20+ Rotating Weekly Meals",
+    "delivery_time": "Daily Delivery 7–9 AM",
+    "macros": "Accurate Calories & Macros"
+  },
+  "pain": {
+    "title": "Why MealPrep Pro?",
+    "p1": "No time to cook every day?",
+    "p2": "Tired of oily restaurant food?",
+    "p3": "Hard to track your macros?",
+    "p4": "Healthy food always tastes boring?",
+    "solution": "We solve it all with real chef meals that taste amazing and are perfectly balanced."
+  },
+  "how": {
+    "title": "How to Start?",
+    "step1_title": "Choose Your Plan",
+    "step1_desc": "Set your goal (loss, gain, or health) and pick the right plan.",
+    "step2_title": "Pick Your Meals",
+    "step2_desc": "Select your favorite meals from our diverse weekly menu.",
+    "step3_title": "Receive & Enjoy",
+    "step3_desc": "Your meals arrive fresh every morning, ready to eat."
+  },
+  "gallery": {
+    "title": "Weekly Menu",
+    "filter_all": "All",
+    "filter_loss": "Weight Loss",
+    "filter_gain": "Muscle Gain",
+    "filter_keto": "Keto",
+    "filter_vegan": "Vegan"
+  },
+  "pricing": {
+    "title": "Subscription Plans",
+    "most_popular": "Most Popular",
+    "per_week": "EGP / Week",
+    "starter_name": "Starter Plan",
+    "starter_desc": "Perfect for moderate weight loss",
+    "pro_name": "Pro Plan",
+    "pro_desc": "Best for athletes & muscle gain",
+    "elite_name": "Elite Plan",
+    "elite_desc": "Full premium weekly convenience",
+    "keto_name": "Keto Plan",
+    "keto_desc": "Healthy fats & low carbs",
+    "vegan_name": "Vegan Plan",
+    "vegan_desc": "100% plant-based, protein-rich",
+    "feature_delivery": "Free Daily Delivery",
+    "feature_consult": "Free Nutrition Consult",
+    "feature_pause": "Pause Anytime",
+    "feature_macros": "Accurate Macros"
+  },
+  "app": {
+    "title": "Full Control from Your Phone",
+    "f1": "Edit your meals easily",
+    "f2": "Pause subscription anytime",
+    "f3": "Track delivery in real-time"
+  },
+  "faq": {
+    "title": "Have Questions?",
+    "q1": "When is the food delivered?",
+    "a1": "We deliver daily between 7 AM and 9 AM to start your day right.",
+    "q2": "Can I pause my subscription?",
+    "a2": "Yes! You can pause or delay your subscription anytime via the app with no extra fees.",
+    "q3": "How do you ensure food quality?",
+    "a3": "We use 100% fresh ingredients and cook daily without any preservatives.",
+    "q4": "Are calories really accurate?",
+    "a4": "Yes, every meal is weighed and its macros (P/C/F) are calculated precisely."
+  },
+  "modal": {
+    "title": "Enter your details and we'll contact you",
+    "name": "Full Name",
+    "phone": "Phone Number",
+    "goal": "Your Goal",
+    "goal_loss": "Weight Loss",
+    "goal_gain": "Muscle Gain",
+    "goal_health": "Healthy Lifestyle",
+    "preference": "Dietary Preference",
+    "pref_normal": "Normal",
+    "pref_keto": "Keto",
+    "pref_vegan": "Vegan",
+    "plan": "Selected Plan",
+    "days": "Days per Week",
+    "submit": "Send Request",
+    "success": "Request received! We will contact you soon."
+  }
+}

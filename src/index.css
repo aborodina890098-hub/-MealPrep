@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Cairo:wght@400;600;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", serif;
+  --font-arabic: "Cairo", sans-serif;
+  
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+
+  /* Legacy brand colors for partial compatibility during migration */
+  --color-brand-primary: var(--primary);
+  --color-brand-secondary: var(--accent);
+  --color-brand-accent: var(--secondary);
+}
+
+:root {
+  --background: #F8FAF5;
+  --foreground: #0F172A;
+  --card: #FFFFFF;
+  --card-foreground: #0F172A;
+  --primary: #16A34A;
+  --primary-foreground: #FFFFFF;
+  --secondary: #FB7185;
+  --secondary-foreground: #FFFFFF;
+  --accent: #A3E635;
+  --accent-foreground: #0F172A;
+  --muted: #F1F5F9;
+  --muted-foreground: #475569;
+  --border: #E2E8F0;
+  --ring: #16A34A;
+}
+
+.dark {
+  --background: #07110B;
+  --foreground: #E5E7EB;
+  --card: #0B1C12;
+  --card-foreground: #E5E7EB;
+  --primary: #22C55E;
+  --primary-foreground: #FFFFFF;
+  --secondary: #FB7185;
+  --secondary-foreground: #FFFFFF;
+  --accent: #A3E635;
+  --accent-foreground: #07110B;
+  --muted: #1F2A24;
+  --muted-foreground: #94A3B8;
+  --border: #1F2A24;
+  --ring: #22C55E;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-background text-foreground antialiased transition-colors duration-300;
+  }
+}
+
+@layer utilities {
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+.font-arabic {
+  font-family: var(--font-arabic);
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
